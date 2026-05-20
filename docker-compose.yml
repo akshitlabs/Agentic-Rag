@@ -1,4 +1,4 @@
-# Ye sirf ek "Order Slip" ya list hai jo hum Docker
+# Ye sirf ek "Order Slip" ya list hai jo hum Docker(hamare system manager) ko dete hain.
 version: '3.8'
 
 services:
