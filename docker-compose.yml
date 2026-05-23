@@ -20,6 +20,14 @@ services:
     volumes:
       - redis_data:/data
 
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+      - redis
+
 volumes:
   postgres_data:
   redis_data:
